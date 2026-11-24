@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Claro que sí: guía de anticonceptivos e ITS</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="intro" id="intro" role="presentation">
+  <div class="stage">
+    <span class="logo"><img src="assets/img/logo-uqroo.webp" alt="Universidad Autónoma del Estado de Quintana Roo"></span>
+    <span class="logo"><img src="assets/img/logo-dcs.webp" alt="División de Ciencias de la Salud"></span>
+    <span class="logo"><img src="assets/img/logo-enfermeria.webp" alt="Enfermería"></span>
+    <span class="spark" aria-hidden="true"></span>
+    <img class="heart" alt="Corazón formado por los símbolos de género" src="assets/img/corazon.webp">
+  </div>
+  <div class="t">Cuidarte es parte del placer.</div>
+  <div class="rule"></div>
+  <p class="s">Guía de anticonceptivos e ITS</p>
+  <button class="skip" id="skip">Saltar intro</button>
+</div>
+<header class="hero wrap">
+  <h1>Cuidarte es parte del placer.</h1>
+  <p>Información clara, sin juicios y sin rodeos sobre cómo evitar un embarazo y cómo protegerte de las infecciones de transmisión sexual (ITS).</p>
+</header>
+
+<main class="wrap">
+<section id="mitos">
+  <h2>Mitos y realidades</h2>
+  <p class="lead">Desliza o usa las flechas para descubrir qué es cierto y qué no.</p>
+  <div class="car" data-car="mitos"></div>
+</section>
+
+<section id="metodos">
+  <h2>Métodos anticonceptivos</h2>
+  <p class="lead">Ningún método es el mejor para todas las personas. Filtra por lo que buscas y compara qué tan bien funcionan en la vida real.</p>
+  <div class="chips" id="chips" role="group" aria-label="Filtrar métodos"></div>
+  <p class="legend"><span style="background:var(--teal)"></span>Uso típico (como se usa en la vida real) &nbsp; <span style="background:var(--gold);opacity:.6"></span>Uso perfecto</p>
+  <div id="lista" aria-live="polite"></div>
+  <div class="callout">
+    <h3>Solo el condón protege de las ITS</h3>
+    <p>Las pastillas, el DIU, el implante y la inyección previenen el embarazo, pero no protegen de infecciones. Combinar condón con otro método da la mejor protección en ambos frentes.</p>
+  </div>
+  <div class="callout">
+    <h3>Anticoncepción de emergencia</h3>
+    <p>Sirve si hubo sexo sin protección o falló el método. No es un método de uso regular y no protege de ITS.</p>
+    <ul>
+      <li>Pastilla de levonorgestrel: hasta 72 horas después, mientras más pronto, mejor.</li>
+      <li>Pastilla de ulipristal: hasta 120 horas (5 días).</li>
+      <li>DIU de cobre colocado por personal de salud: hasta 5 días, y además queda como método a largo plazo.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="condon">
+  <h2>Cómo usar el condón paso a paso</h2>
+  <p class="lead">Usado bien, es el método que más fácil se consigue y el único que además protege de ITS.</p>
+  <div class="car" data-car="condon"></div>
+</section>
+
+<section id="its">
+  <h2>Infecciones de transmisión sexual</h2>
+  <p class="lead">Muchas ITS no dan síntomas. Por eso las pruebas periódicas importan más que “sentirse bien”. Toca cada una para ver lo esencial.</p>
+
+  <details><summary>Clamidia <small>Se cura</small></summary><div class="d"><dl>
+    <dt>Qué es</dt><dd>Infección bacteriana muy común, sobre todo en personas jóvenes.</dd>
+    <dt>Señales</dt><dd>Con frecuencia ninguna. Puede haber flujo inusual, ardor al orinar o dolor pélvico.</dd>
+    <dt>Por qué hacerse la prueba</dt><dd>Sin tratamiento puede causar problemas de fertilidad. Se trata con antibióticos.</dd></dl></div></details>
+
+  <details><summary>Gonorrea <small>Se cura</small></summary><div class="d"><dl>
+    <dt>Qué es</dt><dd>Infección bacteriana que puede estar en genitales, garganta y ano.</dd>
+    <dt>Señales</dt><dd>Secreción, ardor al orinar, sangrado entre periodos. También puede no dar síntomas.</dd>
+    <dt>Tratamiento</dt><dd>Antibióticos indicados por un profesional. Se ha vuelto más resistente, así que no te automediques.</dd></dl></div></details>
+
+  <details><summary>Sífilis <small>Se cura</small></summary><div class="d"><dl>
+    <dt>Qué es</dt><dd>Infección bacteriana que avanza por etapas y puede dañar órganos si no se trata.</dd>
+    <dt>Señales</dt><dd>Una llaga indolora al inicio, luego erupciones en la piel (a veces en palmas y plantas).</dd>
+    <dt>Tratamiento</dt><dd>Penicilina u otros antibióticos. Se diagnostica con análisis de sangre. En el embarazo es importante detectarla a tiempo.</dd></dl></div></details>
+
+  <details><summary>VIH <small>Se controla</small></summary><div class="d"><dl>
+    <dt>Qué es</dt><dd>Virus que debilita el sistema inmune. No tiene cura, pero el tratamiento antirretroviral permite vivir una vida larga y sana.</dd>
+    <dt>Indetectable = intransmisible</dt><dd>Una persona con carga viral indetectable por tratamiento sostenido no transmite el virus por vía sexual.</dd>
+    <dt>Prevención</dt><dd>Condón, PrEP (pastillas preventivas para personas con mayor exposición) y PEP (tratamiento de emergencia que debe iniciarse en las primeras 72 horas tras una exposición).</dd></dl></div></details>
+
+  <details><summary>VPH (virus del papiloma humano) <small>Hay vacuna</small></summary><div class="d"><dl>
+    <dt>Qué es</dt><dd>La ITS más común. La mayoría de las infecciones desaparece sola, pero algunos tipos causan verrugas genitales y otros pueden provocar cáncer, como el cervicouterino.</dd>
+    <dt>Prevención</dt><dd>La vacuna es más efectiva antes de iniciar la vida sexual. Las citologías o pruebas de VPH detectan cambios a tiempo.</dd></dl></div></details>
+
+  <details><summary>Herpes genital <small>Se controla</small></summary><div class="d"><dl>
+    <dt>Qué es</dt><dd>Infección viral que causa brotes de ampollas o llagas. Puede transmitirse incluso sin lesiones visibles.</dd>
+    <dt>Manejo</dt><dd>No se cura, pero los antivirales reducen brotes y el riesgo de contagio. Es muy frecuente y manejable.</dd></dl></div></details>
+
+  <details><summary>Hepatitis B <small>Hay vacuna</small></summary><div class="d"><dl>
+    <dt>Qué es</dt><dd>Infección viral del hígado que se transmite por sangre y fluidos sexuales.</dd>
+    <dt>Prevención</dt><dd>La vacuna es segura y eficaz. Si no la tienes, pregunta por ella en tu centro de salud.</dd></dl></div></details>
+
+  <details><summary>Tricomoniasis <small>Se cura</small></summary><div class="d"><dl>
+    <dt>Qué es</dt><dd>Infección causada por un parásito. Puede dar flujo con mal olor, comezón o ardor, o no dar síntomas.</dd>
+    <dt>Tratamiento</dt><dd>Antibiótico recetado. Conviene que tu pareja también se trate.</dd></dl></div></details>
+</section>
+
+<section id="pruebas">
+  <h2>Cuándo y cómo cuidarte</h2>
+  <div class="cols">
+    <div><h3>Hazte pruebas</h3><p>Al iniciar una nueva relación sexual, si cambias de pareja, si tuviste sexo sin condón o si notas síntomas. Pregunta a tu clínica con qué frecuencia te conviene según tu situación.</p></div>
+    <div><h3>Habla con tu pareja</h3><p>Hablar de pruebas y de métodos antes del sexo evita sorpresas. Si te cuesta, empieza por lo práctico: “¿Tenemos condones? ¿Cuándo fue tu última prueba?”</p></div>
+    <div><h3>Usa el condón bien</h3><p>Revisa la fecha de caducidad, ábrelo con los dedos (no con los dientes), colócalo antes de cualquier contacto genital y usa uno nuevo en cada relación.</p></div>
+    <div><h3>Busca atención sin culpa</h3><p>Las ITS son infecciones, no un castigo. Un diagnóstico a tiempo es la parte más fácil de resolver.</p></div>
+  </div>
+</section>
+<section id="donde">
+  <h2>Dónde acudir en Cancún</h2>
+  <p class="lead">Opciones para conseguir condones, orientación y pruebas. Si es tu primera vez, no necesitas explicar nada: basta con decir que quieres información de salud sexual.</p>
+  <div class="car" data-car="donde"></div>
+  <p class="note">Datos tomados de fuentes públicas. Ubicaciones y horarios pueden cambiar, así que confírmalos antes de ir.</p>
+</section>
+</main>
+
+<footer><div class="wrap"><div class="insts"><img src="assets/img/logo-uqroo.webp" alt="Universidad Autónoma del Estado de Quintana Roo"><img src="assets/img/logo-dcs.webp" alt="División de Ciencias de la Salud"><img src="assets/img/logo-enfermeria.webp" alt="Enfermería"></div>Esta página es informativa y no sustituye la consulta con un profesional de salud. Las cifras de efectividad son aproximadas y provienen de datos generales de uso típico y perfecto. Para elegir un método o hacerte pruebas, acude a tu centro de salud o a una clínica de salud sexual.</div></footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
